@@ -13,6 +13,8 @@ for(const i of config.probset_ids) {
     let sheetOptions = {'!cols': [{wch: 11}, {wch: 8}, {wch: 6}]}
 
     for(const idx in data[0].probs) {
+        res_[0].push(idx + '_submissions')
+        sheetOptions['!cols'].push({wch: 8})
         res_[0].push(idx + '_pass')
         sheetOptions['!cols'].push({wch: 8})
         res_[0].push(idx + '_cost')
@@ -27,6 +29,7 @@ for(const i of config.probset_ids) {
         ]
     
         for(const idx in d.probs) {
+            d_.push(d.probs[idx].times - d.probs[idx].testing)
             d_.push(d.probs[idx].accept != 0? 1: 0)
             d_.push(d.probs[idx].date_diff)
         }
