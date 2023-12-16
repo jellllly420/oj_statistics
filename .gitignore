@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+
+# Personal config
+config.json
+
+# Results
+probset*.json
+statistics.xlsx
