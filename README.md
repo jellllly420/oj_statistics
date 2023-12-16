@@ -51,4 +51,4 @@ Then, run
 ```bash
 node json2xlsx.js
 ```
-_Tips: Since the code is written for multiple probsets, so you can get some `probset_*.json` first and run this command only once._
+_Tips: Since the code is written for multiple probsets, so you can get some `probset*.json` first and run this command only once._
