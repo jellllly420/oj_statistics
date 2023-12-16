@@ -99,9 +99,6 @@ async function getHistory() {
             prob.accept = submissions.filter(submission => submission.state === 'Passed').length
             prob.testing = submissions.filter(submission => submission.state === 'Testing').length
             prob.fail = prob.times - prob.accept - prob.testing
-            // Assume all the submissions can be displayed in one page. 
-            // If not, it is almost sufficient to prove the student didn't cheat. 
-            // In fact, Programming Grid has bug on page switching.
             prob.first_submission_date = submissions.length? submissions[submissions.length - 1].time: null
             prob.last_submission_date = submissions.length? submissions[0].time: null
             if(prob.times) {
