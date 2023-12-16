@@ -1,0 +1,21 @@
+{
+    "admin": {
+        "username": "Your username.",
+        "password": "Your password."
+    },
+    "urls": {
+        "login": "https://programming.pku.edu.cn/login.do",
+        "history": "https://programming.pku.edu.cn/probset/@/#/history.do?username=$&page=%",
+        "rank": "https://programming.pku.edu.cn/probset/@/ranks.do"
+    },
+    "cookie": "A Cookie that contains `PG_client`, which you can get one in your browser.",
+    "probset": {
+        "no": "No.",
+        "id": "The unique ID of a probset, which you can get from the url.",
+        "ddl": "Deadline of the probset",
+        "prob_ids": ["The unique ID of a problem, which you can get from the url."]
+    },
+    "probset_ids": ["The No. of a probset"]
+}
+
+    

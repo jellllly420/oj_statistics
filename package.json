@@ -1,0 +1,22 @@
+{
+  "name": "oj_statistics",
+  "version": "1.0.0",
+  "description": "This project is for fetching the submission statistics of PKU Programming Grid.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jellllly420/oj_statistics.git"
+  },
+  "author": "jellllly420",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/jellllly420/oj_statistics/issues"
+  },
+  "homepage": "https://github.com/jellllly420/oj_statistics#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "events": "^3.3.0",
+    "fs": "^0.0.1-security",
+    "node-xlsx": "^0.23.0",
+    "superagent": "^8.1.2"
+  }
+}
